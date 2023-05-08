@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FlexBox</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<!--Flex And Alignment-->
+<div class="flex flex-col md:flex-row h-72 w-full bg-blue-100/50 items-end">
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">1</div>
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">2</div>
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">3</div>
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">4</div>
+</div>
+<div class="flex flex-col md:flex-row h-72 w-full bg-blue-100/50 items-start mt-3">
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">1</div>
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">2</div>
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">3</div>
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">4</div>
+</div>
+<div class="flex flex-col md:flex-row h-72 w-full bg-blue-100/50 items-center mt-3">
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">1</div>
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">2</div>
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">3</div>
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">4</div>
+</div>
+<div class="flex flex-col md:flex-row h-72 w-full bg-blue-100/50 items-center justify-start mt-3">
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">1</div>
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">2</div>
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">3</div>
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">4</div>
+</div>
+<div class="flex flex-col md:flex-row h-72 w-full bg-blue-100/50 items-center justify-end mt-3">
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">1</div>
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">2</div>
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">3</div>
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">4</div>
+</div>
+<div class="flex flex-col md:flex-row h-72 w-full bg-blue-100/50 items-center justify-center mt-3">
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">1</div>
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">2</div>
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">3</div>
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">4</div>
+</div>
+<div class="flex flex-col md:flex-row h-72 w-full bg-blue-100/50 items-center justify-between mt-3">
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">1</div>
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">2</div>
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">3</div>
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">4</div>
+</div>
+<div class="flex flex-col md:flex-row h-72 w-full bg-blue-100/50 items-center justify-around mt-3">
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">1</div>
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">2</div>
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">3</div>
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">4</div>
+</div>
+<div class="flex flex-col md:flex-row h-72 w-full bg-blue-100/50 items-center justify-evenly mt-3">
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">1</div>
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">2</div>
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">3</div>
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">4</div>
+</div>
+<div class="flex w-full bg-blue-100/50 mt-3">
+    <div class="flex-initial w-64 p-10 border-2 border-indigo-500 bg-blue-100">1(flex-initial)</div>
+    <div class="flex-none w-64 p-10 border-2 border-indigo-500 bg-blue-100">2(flex-none)</div>
+    <div class="flex-auto w-64 p-10 border-2 border-indigo-500 bg-blue-100">3(flex-auto)</div>
+    <div class="flex-1 w-64p-10 border-2 border-indigo-500 bg-blue-100">4(flex-1)</div>
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">5</div>
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">6</div>
+    <div class="p-10 border-2 border-indigo-500 bg-blue-100">7</div>
+</div>
+<div class="flex text-center mt-3">
+    <div class="flex-1 bg-rose-300">hello</div>
+    <div class="flex-1 bg-rose-300">hello</div>
+    <div class="flex-1 bg-rose-300">hello</div>
+</div>
+<div class="mb-40"></div>
+</body>
+</html>

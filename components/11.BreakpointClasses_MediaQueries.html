@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BreakpointClasses</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="text-center border-2 m-20 p-3 rounded-xl shadow bg-slate-200">
+        <h1 class="text-blue-500 font-mono text-4xl" id="width"></h1>
+        <h1 class="text-blue-500 font-mono text-4xl" id="height"></h1>
+    </div>
+<script>
+    function showBrowserWidthAndHeight(){
+        let width = window.innerWidth;
+        let height = window.innerHeight;
+
+        document.querySelector('#width').innerHTML = `width: ${width}`;
+        document.querySelector('#height').innerHTML = `height: ${height}`;
+    }
+    window.onload = showBrowserWidthAndHeight;
+    window.onresize = showBrowserWidthAndHeight;
+</script>
+</body>
+</html>
